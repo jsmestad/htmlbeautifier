@@ -7,10 +7,8 @@ spec = Gem::Specification.new do |s|
   s.description       = "A normaliser/beautifier for HTML that also understands embedded Ruby and Elixir."
   s.author            = "Paul Battley"
   s.email             = "pbattley@gmail.com"
-  s.homepage          = "http://github.com/threedaymonk/htmlbeautifier"
+  s.homepage          = "http://github.com/jsmestad/htmlbeautifier"
   s.license           = "MIT"
-
-  s.has_rdoc          = true
 
   s.files             = %w(Rakefile README.md) + Dir.glob("{bin,test,lib}/**/*")
   s.executables       = Dir["bin/**"].map { |f| File.basename(f) }
