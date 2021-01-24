@@ -44,7 +44,7 @@ module HtmlBeautifier
        :open_block_element],
       [%r{</#{ELEMENT_CONTENT}>}om,
        :close_element],
-      [%r{<#{ELEMENT_CONTENT}[^/]>}om,,
+      [%r{<#{ELEMENT_CONTENT}[^/]>}om,
        :open_element],
       [%r{<\w+(?: #{ELEMENT_CONTENT})?/>}om,
        :standalone_element],
